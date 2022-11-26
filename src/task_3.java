@@ -9,7 +9,7 @@ public class task_3 {
        int n = in.nextInt();
        System.out.print("Input a lower digit of the range i: ");
        List<Integer> list = new ArrayList<Integer>();
-       for (int i= in.nextInt(); i < Short.MAX_VALUE; i++){
+       for (int i= in.nextInt(); i <= Short.MAX_VALUE; i++){
            if (i % n == 0){
                list.add(i);
            }
